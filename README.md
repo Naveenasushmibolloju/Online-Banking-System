@@ -1,421 +1,315 @@
-````markdown
+# 🎓 Online Banking System
+
+<div align="center">
+
 # 🏦 Online Banking System
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Online%20Banking-System-0A66C2?style=for-the-badge&logo=bank&logoColor=white" alt="Online Banking System">
-  <img src="https://img.shields.io/badge/Full--Stack-Web%20Application-6C5CE7?style=for-the-badge" alt="Full Stack">
-</p>
+### 🚀 A Modern Full Stack Web Application for Secure Banking, Accounts, Transactions and Financial Management
 
-<p align="center">
-  <strong>A secure, modern and responsive full-stack Online Banking System</strong>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white">
-  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white">
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white">
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white">
-  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white">
-  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Authentication-Secure-success?style=flat-square">
-  <img src="https://img.shields.io/badge/Authorization-RBAC-blue?style=flat-square">
-  <img src="https://img.shields.io/badge/API-RESTful-orange?style=flat-square">
-  <img src="https://img.shields.io/badge/Database-MongoDB-green?style=flat-square">
-  <img src="https://img.shields.io/badge/Responsive-Yes-purple?style=flat-square">
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=28&pause=1000&color=00BFFF&center=true&vCenter=true&width=750&lines=Online+Banking+System;React.js+%7C+Node.js+%7C+Express.js;MongoDB+%7C+REST+API;Responsive+Banking+Dashboard;Secure+Authentication;Role-Based+Access+Control;Professional+Full+Stack+Project" />
 
 ---
 
-## 🌟 Overview
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React.js](https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 
-**Online Banking System** is a full-stack web application developed as a capstone project to demonstrate practical implementation of modern web development concepts.
-
-The application provides a realistic digital banking experience where customers can manage accounts, view balances, transfer money, manage beneficiaries, view transactions, upload KYC documents and receive notifications.
-
-Administrators can manage customers, accounts, transactions and KYC documents through a dedicated role-based dashboard.
-
-> 🔐 **Note:** This project is developed for educational and demonstration purposes. It is not intended for processing real financial transactions or as a production banking platform.
+</div>
 
 ---
 
-## ✨ Key Features
+# 📖 Project Overview
 
-### 👤 Customer Banking
+The **Online Banking System** is a professional full-stack web application developed to provide a secure and user-friendly digital banking experience. It enables customers to manage their accounts, view balances, transfer money, manage beneficiaries, track transactions, upload KYC documents, and receive notifications.
 
-- 🔐 Secure registration and login
-- 🚪 Secure logout
-- 📊 Personalized banking dashboard
-- 💰 Account balance management
-- 🏦 Account details
-- 💸 Money transfers
-- 👥 Beneficiary management
-- 📜 Transaction history
-- 🔎 Transaction search and filtering
-- 📄 Transaction details
-- 🔔 Notifications
-- 👤 Profile management
-- 🔑 Password change
-- 📁 KYC document upload
-- 📱 Responsive mobile interface
+The application also provides administrators with a dedicated dashboard to manage customers, monitor accounts and transactions, review KYC documents, and maintain banking operations through role-based access control.
 
-### 👨‍💼 Admin Management
+The system follows a modern client-server architecture using **React.js** for the frontend, **Node.js & Express.js** for the backend, and **MongoDB** for database management. RESTful APIs enable secure and efficient communication between the frontend and backend.
 
-- 📊 Admin dashboard
-- 👥 Customer management
-- 🔍 Customer search
-- 🏦 Account monitoring
-- 💳 Transaction monitoring
-- 📁 KYC document review
-- ✅ KYC approval
-- ❌ KYC rejection
-- 📈 Banking statistics
-- 🔐 Role-based access control
+---
+
+# ✨ Key Features
+
+## 🔐 Authentication & Authorization
+
+- Secure User Registration
+- Secure Login
+- JWT Authentication
+- Password Hashing
+- Protected Routes
+- Role-Based Access Control
+- Customer Authorization
+- Admin Authorization
+- Token-Based Session Management
+- Secure Logout
+- Password Change
+
+---
+
+## 👤 Customer Management
+
+- Customer Profile
+- View Account Details
+- Account Balance
+- Account Status
+- Update Profile
+- Profile Image Upload
+- Change Password
+- Secure Customer Dashboard
+- Personal Banking Information
+
+---
+
+## 💰 Account Management
+
+- View Account
+- Account Number
+- Account Type
+- Account Balance
+- Account Status
+- Account Information
+- Account Activity
+- Customer-Specific Account Access
+
+---
+
+## 💸 Money Transfer
+
+- Transfer Money
+- Select Beneficiary
+- Enter Transfer Amount
+- Transaction Reference
+- Transaction Description
+- Balance Validation
+- Sufficient Balance Validation
+- Same Account Transfer Prevention
+- Transaction Status
+- Secure Transfer Processing
+
+---
+
+## 👥 Beneficiary Management
+
+- Add Beneficiary
+- View Beneficiaries
+- Edit Beneficiary
+- Delete Beneficiary
+- Beneficiary Account Details
+- Beneficiary Validation
+- Select Beneficiary During Transfer
+
+---
+
+## 📊 Transaction Management
+
+- Transaction History
+- Transaction Details
+- Deposit Transactions
+- Withdrawal Transactions
+- Transfer Transactions
+- Received Transactions
+- Payment Transactions
+- Transaction Reference
+- Transaction Status
+- Transaction Date and Time
+- Transaction Search
+- Transaction Filtering
+- Amount Information
+
+---
+
+## 📁 KYC & Document Management
+
+- Upload KYC Documents
+- Profile Image Upload
+- Identity Document Upload
+- File Type Validation
+- File Size Validation
+- Secure File Handling
+- Document Status
+- Admin Document Review
+- KYC Approval
+- KYC Rejection
+
+---
+
+## 🔔 Notification Management
+
+- Transfer Notifications
+- Successful Transaction Notifications
+- Failed Transaction Notifications
+- Received Money Notifications
+- KYC Notifications
+- Account Status Notifications
+- Notification History
+- Read/Unread Notifications
+
+---
+
+## 👨‍💼 Admin Management
+
+- Admin Login
+- Admin Dashboard
+- Customer Management
+- Customer Search
+- Customer Details
+- Account Monitoring
+- Transaction Monitoring
+- KYC Document Review
+- Approve KYC
+- Reject KYC
+- System Statistics
+- Banking Activity Monitoring
+- Role-Based Admin Access
+
+---
+
+## 📈 Dashboard
+
+- Total Customers
+- Total Accounts
+- Total Transactions
+- Completed Transactions
+- Pending Transactions
+- Failed Transactions
+- KYC Statistics
+- Account Balance
+- Recent Transactions
+- Quick Actions
+- Banking Statistics
+- Interactive Dashboard Cards
+
+---
+
+## 🔍 Search & Filter
+
+- Search by Customer Name
+- Search by Email
+- Search by Account Number
+- Search Transactions
+- Filter by Transaction Type
+- Filter by Transaction Status
+- Filter by Date
+- Filter by Account Status
+- Customer Filtering
+- Transaction Filtering
+
+---
+
+## 🎨 User Interface
+
+- Modern Banking Dashboard
+- Professional UI Design
+- Responsive Layout
+- Sidebar Navigation
+- Top Navigation Bar
+- Beautiful Dashboard Cards
+- Interactive Tables
+- Banking Forms
+- Form Validation
+- Loading States
+- Error States
+- Success Notifications
+- Toast Notifications
+- Confirmation Dialogs
+- Empty States
+- 404 Error Page
+- Mobile Friendly Design
+
+---
+
+# 🚀 Technologies Used
+
+### Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+- React.js
+- Vite
+- Tailwind CSS
+- React Router
+- Axios
+- React Hook Form
+- React Icons
+
+### Backend
+
+- Node.js
+- Express.js
+- REST API
+- JWT Authentication
+- bcrypt
+- Express Validator
+- Multer
+- CORS
+- dotenv
+
+### Database
+
+- MongoDB
+- Mongoose
+- MongoDB Atlas
+
+### Version Control & Deployment
+
+- Git
+- GitHub
+- Render
+- MongoDB Atlas
+
+---
+
+# 🎯 Project Objectives
+
+- Digitize traditional banking operations.
+- Provide a secure online banking platform.
+- Enable customers to manage their accounts.
+- Enable secure money transfers.
+- Simplify beneficiary management.
+- Maintain transaction history.
+- Provide KYC document management.
+- Implement role-based access control.
+- Improve banking accessibility through responsive design.
+- Provide administrators with centralized banking management.
+- Demonstrate real-world full-stack development practices.
 
 ---
 
 # 🛡️ Security Features
 
-The application implements several security-focused practices:
-
-- 🔒 JWT-based authentication
-- 🔑 Password hashing with bcrypt
-- 🛡️ Protected API routes
-- 👮 Role-based authorization
-- ✅ Server-side input validation
-- 📁 Secure file upload validation
-- 🌐 CORS configuration
-- 🔐 Environment-based secrets
-- 🚫 No plain-text password storage
-- 🚫 No hardcoded production credentials
-- 🧩 Centralized exception handling
-- 🔎 User-specific resource authorization
-
----
-
-# 💸 Banking Transactions
-
-The transaction module provides realistic transaction functionality.
-
-### Supported Transaction Types
-
-| Transaction | Description |
-|---|---|
-| 💰 Deposit | Adds funds to an account |
-| 💸 Withdrawal | Removes funds from an account |
-| 🔄 Transfer | Transfers funds between accounts |
-| 📥 Received | Records incoming funds |
-| 💳 Payment | Records payment transactions |
-
-### Transaction Status
-
-- 🟡 Pending
-- 🟢 Completed
-- 🔴 Failed
-- 🔵 Reversed
-
-### Transfer Validation
-
-The system validates:
-
-- Amount must be greater than zero
-- Sender must have sufficient balance
-- Sender cannot transfer to the same account
-- Beneficiary must exist
-- User must be authorized
-- Transaction must be recorded correctly
+- Password Hashing
+- JWT Authentication
+- Protected API Routes
+- Role-Based Authorization
+- Input Validation
+- Backend Validation
+- Secure File Validation
+- Environment Variables
+- CORS Configuration
+- Centralized Error Handling
+- Unauthorized Access Prevention
+- Customer Data Protection
+- No Plain-Text Password Storage
+- No Hardcoded Production Secrets
 
 ---
 
-# 🧑‍💻 Technology Stack
+# 🔌 RESTful API
 
-## 🎨 Frontend
+The application uses RESTful APIs for communication between the frontend and backend.
 
-| Technology | Purpose |
-|---|---|
-| ⚛️ React.js | User interface |
-| ⚡ Vite | Development and build tool |
-| 🎨 Tailwind CSS | Responsive styling |
-| 🧭 React Router | Client-side routing |
-| 📡 Axios | API communication |
-| 📝 React Hook Form | Form handling |
-| 🎯 React Icons | UI icons |
-
-## ⚙️ Backend
-
-| Technology | Purpose |
-|---|---|
-| 🟢 Node.js | Server runtime |
-| 🚀 Express.js | REST API framework |
-| 🔐 JWT | Authentication |
-| 🔒 bcrypt | Password hashing |
-| ✅ express-validator | Input validation |
-| 📁 Multer | File uploads |
-| 🌐 CORS | Cross-origin requests |
-| ⚙️ dotenv | Environment configuration |
-
-## 🗄️ Database
-
-| Technology | Purpose |
-|---|---|
-| 🍃 MongoDB | NoSQL database |
-| 🧩 Mongoose | MongoDB object modeling |
-| ☁️ MongoDB Atlas | Cloud database deployment |
-
----
-
-# 🗃️ Database Design
-
-The application uses MongoDB with Mongoose.
-
-### 👤 Users
-
-Stores:
-
-* Name
-* Email
-* Phone
-* Password hash
-* Role
-* Account status
-* Profile information
-* Timestamps
-
-### 🏦 Accounts
-
-Stores:
-
-* Account number
-* Customer reference
-* Account type
-* Balance
-* Status
-* Created date
-* Updated date
-
-### 💳 Transactions
-
-Stores:
-
-* Transaction reference
-* Sender
-* Receiver
-* Amount
-* Transaction type
-* Status
-* Description
-* Date/time
-
-### 👥 Beneficiaries
-
-Stores:
-
-* Customer reference
-* Beneficiary name
-* Account number
-* Bank information
-* Relationship/details
-
-### 📁 Documents
-
-Stores:
-
-* Customer reference
-* File information
-* Document type
-* Verification status
-* Upload date
-
-### 🔔 Notifications
-
-Stores:
-
-* User reference
-* Notification title
-* Message
-* Read status
-* Timestamp
-
----
-
-
-# 🔑 Authentication Flow
+### Authentication
 
 ```text
-Register
-   ↓
-Validate User Data
-   ↓
-Hash Password
-   ↓
-Store User
-   ↓
-Login
-   ↓
-Verify Password
-   ↓
-Generate JWT
-   ↓
-Authenticated Request
-   ↓
-Authorization Middleware
-   ↓
-Access Protected Resource
-```
-
----
-
-# 📱 Responsive Design
-
-The application is designed for:
-
-* 🖥️ Desktop
-* 💻 Laptop
-* 📱 Mobile
-* 📲 Tablet
-
-Responsive elements include:
-
-* Navigation
-* Dashboard cards
-* Forms
-* Tables
-* Transaction pages
-* Modals
-* File uploads
-* Admin panels
-
----
-
-# 🧪 Testing
-
-The application should be tested across the following areas:
-
-| Test Area              | Status |
-| ---------------------- | ------ |
-| Registration           | ✅      |
-| Login                  | ✅      |
-| Logout                 | ✅      |
-| Authentication         | ✅      |
-| Authorization          | ✅      |
-| Customer Dashboard     | ✅      |
-| Admin Dashboard        | ✅      |
-| Account Management     | ✅      |
-| Beneficiary Management | ✅      |
-| Money Transfer         | ✅      |
-| Transaction History    | ✅      |
-| Transaction Details    | ✅      |
-| KYC Upload             | ✅      |
-| KYC Review             | ✅      |
-| Notifications          | ✅      |
-| Input Validation       | ✅      |
-| Error Handling         | ✅      |
-| Responsive UI          | ✅      |
-
----
-
-### 🏠 Home Page
-
-```text
-Add screenshot here
-```
-
-### 📊 Customer Dashboard
-
-```text
-Add screenshot here
-```
-
-### 💸 Money Transfer
-
-```text
-Add screenshot here
-```
-
-### 📜 Transactions
-
-```text
-Add screenshot here
-```
-
-### 👨‍💼 Admin Dashboard
-
-```text
-Add screenshot here
-```
-
----
-
-
-
-# 📚 Documentation
-
-| Document              | Location                    |
-| --------------------- | --------------------------- |
-| 📖 README             | `README.md`                 |
-| 🗄️ Database Schema   | `docs/database-schema.md`   |
-| 🔌 API Documentation  | `docs/api-documentation.md` |
-| 📮 Postman Collection | `postman/`                  |
-| 📑 Project Report     | `docs/project-report.md`    |
-
----
-
-# 🚀 Future Enhancements
-
-Possible future improvements include:
-
-* 📱 Mobile application
-* 🔔 Email notifications
-* 📲 SMS notifications
-* 🔐 Multi-factor authentication
-* 💳 Card management
-* 📊 Advanced financial analytics
-* 🤖 Fraud detection
-* 🔎 Advanced transaction monitoring
-* ☁️ Cloud media storage
-* 🔒 Additional security controls
-* 📈 Financial reports
-* 🌍 Multi-language support
-
----
-
-
-### Core Concepts Demonstrated
-
-```text
-✔ Full Stack Development
-✔ RESTful API Development
-✔ Database Integration
-✔ Authentication
-✔ Authorization
-✔ Role-Based Access Control
-✔ File Upload
-✔ Input Validation
-✔ Exception Handling
-✔ Responsive UI
-✔ Clean Architecture
-✔ API Testing
-✔ Deployment
-```
-
----
-
-
-# ⭐ Acknowledgement
-
-This project was developed as part of an internship capstone project to apply full-stack development concepts, backend API development, database integration, authentication, authorization, validation, testing and deployment practices.
-
----
-
-<p align="center">
-
-### 🏦 Online Banking System
-
-**Secure • Responsive • Scalable • Full Stack**
-
-⭐ If you find this project useful, consider giving it a star!
-
-</p>
+POST   /api/auth/register
+POST   /api/auth/login
+POST   /api/auth/logout
+GET    /api/auth/profile
+PUT    /api/auth/change-password
